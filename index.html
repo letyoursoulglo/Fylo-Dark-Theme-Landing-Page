@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <div class="intro">
+    <div class="nav">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+      <ul class="menu">
+        <li>
+          <a href="#">Features</a>
+        </li>
+        <li>
+          <a href="#">Team</a>
+        </li>
+        <li>
+          <a href="#">Sign In</a>
+        </li>
+      </ul>
+    </div>
+    <img class="hero-image" src="./images/illustration-intro.png" alt="illustration">
+    <p class="header">
+      All your files in one secure location, accessible anywhere.
+    </p>
+    <p class="text">
+      Fylo stores all your most important files in one secure location. Access them wherever
+      you need, share and collaborate with friends family, and co-workers.
+    </p>
+    <a href="#" class="get-btn">Get Started</a>
+  </div>
+  <div class="section-1">
+    <div class="anywhere-box">
+      <img src="./images/icon-access-anywhere.svg" alt="icon-access-anywhere">
+      <p class="header">Access your files, anywhere</p>
+      <p class="text">
+        The ability to use a smartphone, tablet, or computer to access your account means your
+        files follow you everywhere.
+      </p>
+    </div>
+    <div class="security-box">
+      <img src="./images/icon-security.svg" alt="icon-security">
+      <p class="header">Security you can trust</p>
+      <p class="text">
+        2-factor authentication and user-controlled encryption are just a couple of the security
+        features we allow to help secure your files.
+      </p>
+    </div>
+    <div class="collaboration-box">
+      <img src="./images/icon-collaboration.svg" alt="icon-collaboration">
+      <p class="header">Real-time collaboration</p>
+      <p class="text">
+        Securely share files and folders with friends, family and colleagues for live collaboration.
+        No email attachments required.
+      </p>
+    </div>
+    <div class="file-box">
+      <img src="./images/icon-any-file.svg" alt="icon-any-file">
+      <p class="header">Store any type of file</p>
+      <p class="text">
+        Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+        file types to be securely stored and shared.
+      </p>
+    </div>
+  </div>
+  <div class="section-2">
+    <img class="stay" src="./images/illustration-stay-productive.png" alt="illustration-stay-productive">
+    <div class="section-2-text">
+      <p class="header">Stay productive, wherever you are</p>
+      <p class="text">
+        Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+        storage needs.
+      </p>
+      <p class="text">
+        Securely share files and folders with friends, family and colleagues for live collaboration. No email
+        attachments required.
+      </p>
+      <a class="see-how" href="#">
+        See how Fylo works
+        <img src="./images/icon-arrow.svg" alt="arrow">
+      </a>
+    </div>
+  </div>
+  <div class="section-3">
+    <div class="testimonial t-1">
+      <p class="text">
+        Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+        become a well-oiled collaboration machine.
+      </p>
+      <div class="user-info">
+        <img src="./images/profile-1.jpg" alt="profile-1">
+        <div class="info">
+          <p class="name">Satish Patel</p>
+          <p class="job-title">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial t-2">
+      <p class="text">
+        Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+        become a well-oiled collaboration machine.
+      </p>
+      <div class="user-info">
+        <img src="./images/profile-2.jpg" alt="profile-2">
+        <div class="info">
+          <p class="name">Bruce McKenzie</p>
+          <p class="job-title">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial t-3">
+      <p class="text">
+        Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+        become a well-oiled collaboration machine.
+      </p>
+      <div class="user-info">
+        <img src="./images/profile-3.jpg" alt="profile-3">
+        <div class="info">
+          <p class="name">Iva Boyd</p>
+          <p class="job-title">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-4">
+    <p class="header">Get early access today</p>
+    <p class="text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+      questions, our support team would be happy to help you.</p>
+    <form id="signup" class="form">
+      <input class="signup" type="email" id="email" placeholder="email@example.com">
+      <button type="submit" id="submit" class="submit-btn">Get Started For Free</button>
+      <p class="invalid-email">Please Enter a Valid Email Address</p>
+    </form>
+  </div>
+  <div class="footer">
+    <img class="logo" src="./images/logo.svg" alt="logo">
+    <div class="footer-text">
+      <div class="location">
+        <img src="./images/icon-location.svg" alt="pinpoint">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua
+        </p>
+      </div>
+      <div class="contact-text">
+        <div class="telephone">
+          <img src="./images/icon-phone.svg" alt="phone">
+          <p class="phone-number">+1-543-123-4567</p>
+        </div>
+        <div class="email">
+          <img src="./images/icon-email.svg" alt="email">
+          <p class="text">example@fylo.com</p>
+        </div>
+      </div>
+      <ul class="menu-left">
+        <li>
+          <a href="#">About Us</a>
+        </li>
+        <li>
+          <a href="#">Jobs</a>
+        </li>
+        <li>
+          <a href="#">Press</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+      </ul>
+      <ul class="menu-right">
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        <li>
+          <a href="#">Terms</a>
+        </li>
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+      </ul>
+      <div class="socials">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+      </div>
+    </div>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p> -->
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
