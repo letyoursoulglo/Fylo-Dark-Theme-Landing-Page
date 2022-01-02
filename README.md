@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fylo-Landing-Page](https://letyoursoulglo.github.io/Fylo-Dark-Theme-Landing-Page/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid--HrUJJIAB)
+- Live Site URL: [Fylo-Landing-Page](https://letyoursoulglo.github.io/Fylo-Dark-Theme-Landing-Page/)
 
 ## My process
 
